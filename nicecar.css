@@ -1,0 +1,674 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    height: 90px;
+    width: 1300px;
+    padding: 1%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+
+.logo {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.line {
+    color: #ffffff;
+    text-shadow: 
+    2px 2px 0 #a31e1e;
+    margin-left: 110px;
+    margin-top: 17px;
+    white-space: nowrap;
+}
+
+.search {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 9px 14px; 
+    font-size: 12px;
+    width: 200px; 
+    text-align: center;
+    flex: 1;
+    margin-left: 330px;
+    color: #ffffff;
+}
+
+.searchbutton {
+    background-color: transparent;
+    color: #ffffff; 
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0 10px; 
+    margin-left: 10px; 
+}
+
+.modalclick {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px; 
+    margin-left: 15px; 
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.modalclick2 {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 20px; 
+    margin-left: 15px;
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.modalclick4 {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 20px; 
+    margin-left: 150px; 
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+a:hover{
+    color: rgb(152, 0, 0);
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+  
+  .modal:target {
+    display: block;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 15px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+
+  .mcontent{
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+
+.signinbutton{
+    background-color: transparent;
+    color: rgb(215, 0, 0);
+    border: 1px solid #ffffff;
+    font-size: medium;
+    text-align: center;
+    font-weight:bold ;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 40px;
+    white-space: nowrap;
+}
+
+
+.bgimg{
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1325px;
+    margin-bottom: 10px;
+}
+
+.bgcontent{
+    align-items: center;
+
+
+}
+
+.tag{
+    width: 500px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-shadow: 
+        1px 1px 0 #ffe5e5;
+    line-height: 1;
+    letter-spacing: .05em;
+    margin-top: 50px;
+    float: left;
+    margin-left: 80px;
+}
+
+.signin{
+    background-color: rgba(0, 0, 0, 0.769);
+    width: 400px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 170px;
+    float: right;
+    margin-right: 100px;
+}
+
+.signbutton{
+    color: crimson;
+    font-size: medium;
+    text-align: center;
+    font-weight:bold ;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: rgb(152, 0, 0);
+    cursor: pointer;
+}
+
+.row{
+    background-color: transparent;
+    background-image: url(bgcar.jfif);
+    background-size: cover;
+    width: 1325px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rows{
+    background: transparent;
+    height: 130px;
+    width: 135px;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 
+    1px 1px 0 #bb2b2b;
+    padding: 1%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.refund{
+    background-color: transparent;
+    background-image: url(input/icon-card-refund.png);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.location{
+    background-color: transparent;
+    background-image: url(input/icon-locations-100h.png);
+    background-size: cover;
+    width: 80px;
+    height: 120px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 30px;
+}
+
+.heart{
+    background-color: transparent;
+    background-image: url(input/icon-heart.png);
+    background-size: cover;
+    width: 135px;
+    height: 120px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.track{
+    background-color: transparent;
+    background-image: url(input/icon-fast-track-100h.png);
+    background-size: cover;
+    width: 120px;
+    height: 125px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+.carhead {
+    width: 300vh; 
+    margin-top: 30px;
+}
+
+.cartop {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.car {
+    background: #000000;
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+    font-size: x-small;
+    font-family: Arial, sans-serif;
+    border: solid;
+    border-color: #b81d1d;
+    padding: 1%;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.fordvan {
+    background-color: yellow;
+    height: 120px;
+    background-image:url(van/ford1.webp);
+    background-size: cover;
+
+}
+
+.hyundaivan {
+    background-color: red;
+    height: 120px;
+    background-image: url(van/hyundai.png);
+    background-size:cover;
+}
+
+.kiavan {
+    background-color: purple;
+    height: 120px;
+    background-image: url(van/Kia.jpg);
+    background-size:cover;
+    
+}
+
+.nissanvan {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(van/nissan.jpg);
+    background-size:cover;
+}
+
+.toyotavan {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(van/Toyota.jpg);
+    background-size:cover;
+}
+
+.camarosport {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sports/camaro1.webp);
+    background-size:cover;
+}
+
+.mazdasport {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sports/mazda.jpg);
+    background-size:cover;
+}
+
+.nissansport {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sports/nissan.jpg);
+    background-size:cover;
+}
+
+.subarusport {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sports/Subaru.jpg);
+    background-size:cover;
+}
+
+.toyotasport {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sports/toyota1.jpg);
+    background-size:cover;
+}
+
+.fordsuv {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(suv/everest.jpg);
+    background-size:cover;
+}
+
+.toyotasuv {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(suv/fortuner1.jpg);
+    background-size:cover;
+}
+
+.isuzusuv {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(suv/isuzu-mu-x.jpg);
+    background-size:cover;
+}
+
+.mitsusuv {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(suv/montero.jpg);
+    background-size:cover;
+}
+
+.nissansuv {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(suv/terra.jpg);
+    background-size:cover;
+}
+
+.hyundaised {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sedan/accent.jpg);
+    background-size:cover;
+}
+
+.toyotased {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sedan/civic.jpg);
+    background-size:cover;
+}
+
+.mazdased {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sedan/mazda.jfif);
+    background-size:cover;
+}
+
+.nissansed {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sedan/nissan.jpg);
+    background-size:cover;
+}
+
+.viossed {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(sedan/vios.jpg);
+    background-size:cover;
+}
+
+.toyotaup {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(pickup/hilux.webp);
+    background-size:cover;
+}
+
+.isuzuup {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(pickup/isuzu.png);
+    background-size:cover;
+}
+
+.nissanup {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(pickup/navara.jpg);
+    background-size:cover;
+}
+
+.fordup {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(pickup/ranger.jpg);
+    background-size:cover;
+}
+
+.mitsuup {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(pickup/strada.jpg);
+    background-size:cover;
+}
+
+.mustangmus {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(muscle/7b78edbb-ford-mustang-new-york-auto-show-.jpg);
+    background-size:cover;
+}
+
+.challengermus {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(muscle/2009-dodge-challenger-srt8-date-03152010-size-1024x682-2998x1998_b2097.jpg);
+    background-size:cover;
+}
+
+.camaromus {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(muscle/camaro.jpeg);
+    background-size:cover;
+}
+
+.corvettemus {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(muscle/corvette.webp);
+    background-size:cover;
+}
+
+.chargermus {
+    background-color: rgb(92, 42, 92);
+    height: 120px;
+    background-image: url(muscle/charger.jpg);
+    background-size:cover;
+}
+
+
+
+.car:hover {
+    cursor: pointer;
+    transform: scale(1.13);
+}
+
+
+.sec4{
+    background:#000000 ;
+    height: 440px;
+    width: 1325px;
+    margin-top: 30px;
+}
+
+
+
+.img3{
+    background: #ffffff;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 750px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imgcon{
+    width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 
+        2px 1px 0 #ffe5e5;
+    line-height: 1;
+    letter-spacing: .05em;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+
+.book{
+    background:#f5f5db61;
+    height: 390px;
+    width: 500px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    letter-spacing: .05em;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+
+.bookb{
+    background-color: transparent;
+    color: rgb(215, 0, 0);
+    border: 1px solid #ffffff;
+    font-size: medium;
+    text-align: center;
+    font-weight:bold ;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.loc{
+    margin-top: 20px;
+}
+
+.loc,.datetime,.rbutton,.cbox,.tcar{
+    margin-left: 160px;
+    line-height: 1.5;
+}
+
+input,select{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #000000;
+    height: 80px;
+    width: 1325px;
+    margin-top: 10px;
+
+}
+
+.foot{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.socmed{
+    float: right;
+    flex-direction: row;
+    background-color: transparent;
+    margin-top: 7px;
+    margin-right:7px ;
+}
+
+.fb{
+    background-image: url(fb1.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border-style: none;
+}
+
+.yt{
+    background-image: url(YouTube1.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border-style: none;
+}
+
+.x{
+    background-image: url(Twitter1.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border-style: none;
+}
+
